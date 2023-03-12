@@ -17,4 +17,4 @@ We hope to build an application for this and also potentially classify reviews i
 
 ## The code can be found here: 
 https://github.com/ConcealedSword/dALrens-Hotel-Sentiment-Analysis/blob/main/HotelSentimentAnalysis.ipynb
-We used python to carry out this project
+We used python to carry out this project.
