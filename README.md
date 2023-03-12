@@ -14,3 +14,7 @@ Accurate model training.
 How to use Amazon Sagemaker and NLP.
 ## What's next for Hotel Sentiment Analysis
 We hope to build an application for this and also potentially classify reviews into different categories (e.g those on food and hotel cleanliness.
+
+## The code can be found here: 
+https://github.com/ConcealedSword/dALrens-Hotel-Sentiment-Analysis/blob/main/HotelSentimentAnalysis.ipynb
+We used python to carry out this project
