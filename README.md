@@ -1,20 +1,81 @@
-# dALrens-Hotel-Sentiment-Analysis
+# 🏨 dALrens Hotel Sentiment Analysis
+💡 Inspiration
+We wanted to support hotel owners in understanding customer feedback efficiently and at scale.
 
-## Inspiration
-We wanted to help hotel owners evaluate feedback efficiently.
-## What it does
-It classifies hotel reviews and allow hotel owners to quickly understand the feedback.
-## How we built it
-We built it using NLTK and Gensim
-## Challenges we ran into
-Kernal running out of memory.
-## Accomplishments that we're proud of
-Accurate model training.
-## What we learned
-How to use Amazon Sagemaker and NLP.
-## What's next for Hotel Sentiment Analysis
-We hope to build an application for this and also potentially classify reviews into different categories (e.g those on food and hotel cleanliness.
+# 🔍 What It Does
+This project classifies hotel reviews using Natural Language Processing (NLP) techniques to help hotel owners quickly:
 
-## The code can be found here: 
-https://github.com/ConcealedSword/dALrens-Hotel-Sentiment-Analysis/blob/main/HotelSentimentAnalysis.ipynb
-We used python to carry out this project.
+Identify overall sentiment (positive/negative)
+
+Gain high-level insights without reading each review individually
+
+# 🛠️ How We Built It
+We used:
+
+NLTK for preprocessing and sentiment-related utilities
+
+Gensim for word embeddings and topic modeling
+
+Python and Jupyter Notebook for building and training the model
+
+Amazon SageMaker for model deployment and training at scale
+
+# ⚠️ Challenges Faced
+Memory issues while training large models in constrained environments (e.g., running out of kernel memory)
+
+# 🏆 Accomplishments
+Successfully trained an accurate sentiment classification model
+
+Learned to deploy and scale NLP solutions using Amazon SageMaker
+
+# 📚 What We Learned
+How to use Amazon SageMaker for NLP tasks
+
+Practical implementation of sentiment analysis and topic modeling
+
+# 🚀 What's Next
+Build a full-fledged web application for real-time review classification
+
+Expand capabilities to classify feedback by topic (e.g., food, cleanliness, service, amenities)
+
+# 📁 Files Included
+HotelSentimentAnalysis.ipynb: Complete Python code for data preprocessing, sentiment classification, and evaluation
+
+# 🧪 Requirements
+Make sure you have the following Python packages installed:
+
+``` bash
+nltk
+gensim
+pandas
+numpy
+matplotlib
+scikit-learn
+```
+
+You can install everything in one go:
+
+```bash
+pip install nltk gensim pandas numpy matplotlib scikit-learn
+```
+
+Also, don’t forget to download necessary NLTK corpora:
+
+```bash
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+```
+
+# 🖥️ How to Run
+Clone the repository or download the files manually.
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+Open HotelSentimentAnalysis.ipynb.
+```
+
+Run each cell in order to follow the data cleaning, model training, and evaluation steps.
